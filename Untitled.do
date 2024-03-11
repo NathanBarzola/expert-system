@@ -20,9 +20,26 @@ graph export ./figures/figure4.png, replace wid(1000)
 ! git add README.md
 ! git commit -m "first commit"
 ! git branch -M main
-! git remote add origin https://! github.com/NathanBarzola/expert-system.! git
+! git remote add origin https://github.com/NathanBarzola/expert-system.git
 ! git push -u origin main
 
-! git remote add origin https://! github.com/NathanBarzola/expert-system.! git
+! git remote add origin https://github.com/NathanBarzola/expert-system.git
 ! git branch -M main
 ! git push -u origin main
+
+! git remote add origin "https://github.com/NathanBarzola/expert-system.git"
+! git status
+! git add --all
+! git commit -m "minor fixes"
+! git push
+
+
+
+file close _all
+file open git using mygit.bat, write replace
+file write git "git remote add origin " `"""' "https://github.com/NathanBarzola/expert-system.git" `"""' _n
+ file write git "git add --all" _n
+ file write git "git commit -m "
+ file write git `"""' "minor fixes" `"""' _n
+ file write git "git push" _n
+file close git
