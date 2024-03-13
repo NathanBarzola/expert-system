@@ -13,7 +13,7 @@ graph export ./figures/figure3.png, replace wid(1000)
 scatter length mpg
 graph export ./figures/figure4.png, replace wid(1000)
 
-
+this is my contribution as User 2
 
 ! echo # expert-system >> README.md
 ! git init
