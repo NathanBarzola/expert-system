@@ -1,2 +1,1 @@
-Maintenant je suis user2
-
+I make major changes on the document. 
